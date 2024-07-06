@@ -11,19 +11,19 @@ flutter_localizations:
  ```
 generate: true
  ```
-
+----------------------------------
 **no aqruivo l10n.yaml**
  ```
 arb-dir: lib/l10n
 template-arb-file: app_en.arb
 output-localization-file: app_localizations.dart
  ```
-
+----------------------------------
 **import da classe localization**
  ```
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
  ```
-
+----------------------------------
 **O dropDown pra teste**
  ```
  body: Column(
@@ -56,7 +56,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
         ],
       ),
  ```
-
+----------------------------------
 **para chamar o getter da classe localizations**
  ```
 Text(AppLocalizations.of(context)!.language),
